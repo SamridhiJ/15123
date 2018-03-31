@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:id="@+id/list"
+    android:weightSum="100"
+    >
+
+
+
+
+    <TextView
+
+        android:id="@+id/studentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:layout_gravity="center"
+        android:text="Student"
+        android:textSize="15dp"
+
+        />
+
+    <TextView
+        android:id="@+id/studentRollNo"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:text="Roll no"
+        android:textSize="15dp"
+        />
+    <RadioGroup
+        android:layout_weight="20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/attendace_radio_group"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioPresent"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/radioAbsent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</LinearLayout>

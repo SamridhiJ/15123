@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+
+<!--tools:context="com.example.user.login.MainActivity">-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorlogin"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="77dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/login2" />
+
+    <EditText
+        android:id="@+id/etname"
+        style="@style/editText_style"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="250dp"
+
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:text="@string/name" />
+
+    <EditText
+        android:id="@+id/etpass"
+        style="@style/editText_style"
+        android:layout_alignEnd="@+id/etname"
+        android:layout_alignRight="@+id/etname"
+        android:layout_below="@+id/etname"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="40dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:text="@string/password" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Login"
+
+        style="@style/button_style"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="This is count" />
+</RelativeLayout>
+    <!--</android.support.constraint.ConstraintLayout>-->

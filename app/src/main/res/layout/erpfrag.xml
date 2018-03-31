@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/problem_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:text="Select type of problem" />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/problem_type"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"></Spinner>
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/desc"
+        android:layout_alignStart="@+id/desc"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Enter title"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter description"
+        android:inputType="textPersonName"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/prob_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="Submit" />
+
+    <EditText
+        android:id="@+id/facemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/desc"
+        android:layout_alignStart="@+id/desc"
+        android:layout_below="@+id/desc"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Enter E-mail"/>
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/facemail"
+        android:layout_centerHorizontal="true"
+        android:background="@color/deeppurple"
+        android:src="@drawable/addpic"
+        />
+
+</RelativeLayout>

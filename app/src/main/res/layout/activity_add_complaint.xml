@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.login.AddComplaint"
+    >
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:elevation="30dp"
+        android:background="#11000000"
+         android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:textSize="20dp"
+        android:text="Enter the new complaint type below" />
+
+    <EditText
+        android:id="@+id/comptype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Enter Complaint type"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/addcomp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comptype"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:onClick="complaintsubmit"
+        android:text="Add" />
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yellow">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button">#ff99cc</color>
+    <color name="lightblue">#5e2fc4</color>
+    <color name="blue">#1b484c</color>
+    <color name ="colorlogin">#1F283D </color>
+
+        <color name="foreground">#ffc107</color>
+
+
+</resources>
